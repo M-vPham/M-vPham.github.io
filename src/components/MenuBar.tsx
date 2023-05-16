@@ -1,32 +1,59 @@
 import React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 
-function MenuBar(props: { onAbout: React.MouseEventHandler }): JSX.Element {
+function MenuBar(): JSX.Element {
 	return (
 		<div className="MenuBar">
-			<AppBar
-				position="sticky"
-				color="transparent"
-				elevation={0}
-				style={{ paddingBottom: 10 }}
-			>
+			<AppBar position="sticky" color="transparent" elevation={0}>
 				<Toolbar>
 					<Typography
 						variant="h6"
 						component="div"
-						style={{ flex: 1 }}
+						style={{ flex: 2 }}
 					>
 						Michelle Thuy Van Pham
 					</Typography>
 					<div>
-						<Button onClick={props.onAbout} color="inherit">
-							About
-						</Button>
-						<Button color="inherit">Experience</Button>
-						<Button color="inherit">Projects</Button>
+						<Link
+							activeClass="active"
+							to="About"
+							spy={true}
+							smooth={true}
+							offset={-70}
+							duration={500}
+						>
+							<Button id="nav-item" color="inherit">
+								About
+							</Button>
+						</Link>
+						<Link
+							activeClass="active"
+							to="WorkExperience"
+							spy={true}
+							smooth={true}
+							offset={-70}
+							duration={500}
+						>
+							<Button id="nav-item" color="inherit">
+								Experience
+							</Button>
+						</Link>
+						<Link
+							activeClass="active"
+							to="About"
+							spy={true}
+							smooth={true}
+							offset={-70}
+							duration={500}
+						>
+							<Button id="nav-item" color="inherit">
+								Projects
+							</Button>
+						</Link>
 					</div>
 				</Toolbar>
 			</AppBar>

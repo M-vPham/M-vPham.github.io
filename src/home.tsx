@@ -10,19 +10,10 @@ import Box from "@mui/material/Box";
 import "./home.css";
 
 function Home(): JSX.Element {
-	const AboutRef = useRef<null | HTMLDivElement>(null);
-	// const ExperienceRef = useRef<null | HTMLDivElement>(null);
-	// const ProjectsRef = useRef<null | HTMLDivElement>(null);
-
-	const onAboutClick: React.MouseEventHandler = () =>
-		AboutRef.current?.scrollIntoView({
-			behavior: "smooth",
-		});
-
 	return (
 		<div className="app">
-			<MenuBar onAbout={onAboutClick} />
-			<div className="About">
+			<MenuBar />
+			<div id="About" className="About">
 				<Grid container spacing={2}>
 					<Grid item xs={6}>
 						<ProfileCard />
@@ -32,7 +23,7 @@ function Home(): JSX.Element {
 					</Grid>
 				</Grid>
 			</div>
-			<div ref={AboutRef} className="WorkExperience">
+			<div id="WorkExperience" className="WorkExperience">
 				<Typography
 					variant="h4"
 					color="textPrimary"

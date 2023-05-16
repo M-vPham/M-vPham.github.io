@@ -1,7 +1,7 @@
 {
-	"include": ["./src/ts/**/*"],
-	"exclude": [],
+	"include": ["./src/**/*"],
 	"compilerOptions": {
 		"typeRoots": ["types.d.ts"]
-	}
+	},
+	"typeRoots": ["./typings", "./node_modules/@types/"]
 }

@@ -3,6 +3,15 @@
 	background-color: beige;
 	align-items: center;
 }
+.MenuBar {
+	position: -webkit-sticky;
+	background-color: white;
+	position: sticky;
+	top: 0;
+}
+.nav-item > .active {
+	border-bottom: 100px solid #333;
+}
 
 .profileCard {
 	padding: 2em;
