@@ -1,0 +1,30 @@
+.app {
+	/* background-image: url("./img/bg.jpg"); */
+	background-color: beige;
+	align-items: center;
+}
+
+.profileCard {
+	padding: 2em;
+	text-align: center;
+}
+.profilePicture {
+	padding: 2em;
+	align-self: center;
+}
+
+.chipStack {
+	margin: auto;
+}
+.About {
+	padding: 2em;
+	margin: 1em;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+.subtitle {
+	padding: 0em;
+}
+.desc {
+	padding: 1em;
+}
