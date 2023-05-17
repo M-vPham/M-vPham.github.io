@@ -23,7 +23,7 @@ function MenuBar(): JSX.Element {
 							to="About"
 							spy={true}
 							smooth={true}
-							offset={-70}
+							offset={-100}
 							duration={500}
 						>
 							<Button id="nav-item" color="inherit">
@@ -35,7 +35,7 @@ function MenuBar(): JSX.Element {
 							to="WorkExperience"
 							spy={true}
 							smooth={true}
-							offset={-70}
+							offset={-100}
 							duration={500}
 						>
 							<Button id="nav-item" color="inherit">
@@ -44,10 +44,10 @@ function MenuBar(): JSX.Element {
 						</Link>
 						<Link
 							activeClass="active"
-							to="About"
+							to="Projects"
 							spy={true}
 							smooth={true}
-							offset={-70}
+							offset={-100}
 							duration={500}
 						>
 							<Button id="nav-item" color="inherit">

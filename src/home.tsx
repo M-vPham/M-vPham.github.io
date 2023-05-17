@@ -1,12 +1,12 @@
 import React from "react";
-import { MouseEventHandler, useRef } from "react";
 import MenuBar from "./components/MenuBar";
 import ProfileCard from "./components/ProfileCard";
 import About from "./components/About";
 import WorkExperience from "./components/WorkExperience";
+import Projects from "./components/Projects";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import Box from "@mui/material/Box";
+
 import "./home.css";
 
 function Home(): JSX.Element {
@@ -26,13 +26,24 @@ function Home(): JSX.Element {
 			<div id="WorkExperience" className="WorkExperience">
 				<Typography
 					variant="h4"
-					color="textPrimary"
+					color="common.white"
 					sx={{ ml: 10 }}
 					gutterBottom
 				>
 					Work Experiences
 				</Typography>
 				<WorkExperience />
+			</div>
+			<div id="Projects" className="Projects">
+				<Typography
+					variant="h4"
+					color="common.white"
+					sx={{ ml: 10 }}
+					gutterBottom
+				>
+					Projects
+				</Typography>
+				<Projects />
 			</div>
 		</div>
 	);

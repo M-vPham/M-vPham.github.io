@@ -3,6 +3,7 @@ import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
 import Chip from "@mui/material/Chip";
 import Box from "@mui/material/Box";
+import Tooltip from "@mui/material/Tooltip";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TextSnippetIcon from "@mui/icons-material/TextSnippet";
@@ -25,7 +26,7 @@ function ProfileCard(): JSX.Element {
 				component="h1"
 				variant="h2"
 				align="center"
-				color="textPrimary"
+				color="common.white"
 			>
 				Hi, I'm Michelle Pham
 			</Typography>
@@ -34,7 +35,7 @@ function ProfileCard(): JSX.Element {
 				component="h2"
 				variant="h5"
 				align="center"
-				color="textPrimary"
+				color="common.white"
 				gutterBottom
 			>
 				Software Developer
@@ -43,7 +44,7 @@ function ProfileCard(): JSX.Element {
 				className="desc"
 				variant="body1"
 				align="center"
-				color="textPrimary"
+				color="common.white"
 			>
 				I&apos;m a V4/5.10+ indoor climber. An avid boardgame and
 				videogame enthusiast. <br />
@@ -57,17 +58,31 @@ function ProfileCard(): JSX.Element {
 					alignItems="center"
 					justifySelf="center"
 				>
-					<GitHubIcon
-						onClick={() =>
-							window.open("https://github.com/M-vPham")
-						}
-					/>
-					<LinkedInIcon
-						onClick={() =>
-							window.open("https://www.linkedin.com/in/mtvpham/")
-						}
-					/>
-					<TextSnippetIcon onClick={() => window.open(resume)} />
+					<Tooltip title="Github" arrow>
+						<GitHubIcon
+							color="secondary"
+							onClick={() =>
+								window.open("https://github.com/M-vPham")
+							}
+						/>
+					</Tooltip>
+					<Tooltip title="Linkedin" arrow>
+						<LinkedInIcon
+							color="secondary"
+							onClick={() =>
+								window.open(
+									"https://www.linkedin.com/in/mtvpham/"
+								)
+							}
+						/>
+					</Tooltip>
+
+					<Tooltip title="Resume" arrow>
+						<TextSnippetIcon
+							color="secondary"
+							onClick={() => window.open(resume)}
+						/>
+					</Tooltip>
 				</Stack>
 			</Box>
 			<Box display="flex">
@@ -78,11 +93,11 @@ function ProfileCard(): JSX.Element {
 					alignItems="center"
 					justifySelf="center"
 				>
-					<Chip variant="outlined" label="Kotlin" />
-					<Chip variant="outlined" label="Java" />
-					<Chip variant="outlined" label="React" />
-					<Chip variant="outlined" label="GraphQL" />
-					<Chip variant="outlined" label="MongoDB" />
+					<Chip variant="filled" label="Kotlin" color="secondary" />
+					<Chip variant="filled" label="Java" color="secondary" />
+					<Chip variant="filled" label="React" color="secondary" />
+					<Chip variant="filled" label="GraphQL" color="secondary" />
+					<Chip variant="filled" label="MongoDB" color="secondary" />
 				</Stack>
 			</Box>
 		</div>

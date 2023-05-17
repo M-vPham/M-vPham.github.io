@@ -1,17 +1,15 @@
+import React from "react";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 import Chip from "@mui/material/Chip";
 import CardContent from "@mui/material/CardContent";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
+import withStyles from "@mui/material/styles/withStyles";
+
+import "./css/WorkExperience.css";
 
 function WorkExperience(): JSX.Element {
-	const companyNames = [
-		"ServiceEcho",
-		"Connected.io",
-		"PointClickCare",
-		"Thoughtworks CA",
-	];
 	return (
 		<div>
 			<Stack
@@ -23,7 +21,14 @@ function WorkExperience(): JSX.Element {
 					mb: 10,
 				}}
 			>
-				<Card variant="outlined" style={{ backgroundColor: "beige" }}>
+				<Card
+					className="experienceCard"
+					sx={{
+						":hover": {
+							boxShadow: 15, // theme.shadows[20]
+						},
+					}}
+				>
 					<Grid container spacing={2}>
 						<Grid item xs={2}>
 							<CardContent>
@@ -71,16 +76,35 @@ function WorkExperience(): JSX.Element {
 									alignItems="center"
 									justifySelf="center"
 								>
-									<Chip variant="outlined" label="Kotlin" />
-									<Chip variant="outlined" label="Java" />
-									<Chip variant="outlined" label="MongoDB" />
+									<Chip
+										variant="filled"
+										color="secondary"
+										label="Kotlin"
+									/>
+									<Chip
+										variant="filled"
+										color="secondary"
+										label="Java"
+									/>
+									<Chip
+										variant="filled"
+										color="secondary"
+										label="MongoDB"
+									/>
 								</Stack>
 							</CardContent>
 						</Grid>
 					</Grid>
 				</Card>
 				{/* PointClickCare */}
-				<Card>
+				<Card
+					className="experienceCard"
+					sx={{
+						":hover": {
+							boxShadow: 15, // theme.shadows[20]
+						},
+					}}
+				>
 					<Grid container spacing={2}>
 						<Grid item xs={2}>
 							<CardContent>
@@ -124,13 +148,19 @@ function WorkExperience(): JSX.Element {
 									alignItems="center"
 									justifySelf="center"
 								>
-									<Chip variant="outlined" label="React" />
 									<Chip
-										variant="outlined"
+										variant="filled"
+										color="secondary"
+										label="React"
+									/>
+									<Chip
+										variant="filled"
+										color="secondary"
 										label="TypeScript"
 									/>
 									<Chip
-										variant="outlined"
+										variant="filled"
+										color="secondary"
 										label="JavaScript"
 									/>
 								</Stack>
@@ -140,7 +170,14 @@ function WorkExperience(): JSX.Element {
 				</Card>
 
 				{/* Connected */}
-				<Card>
+				<Card
+					className="experienceCard"
+					sx={{
+						":hover": {
+							boxShadow: 15, // theme.shadows[20]
+						},
+					}}
+				>
 					<Grid container spacing={2}>
 						<Grid item xs={2}>
 							<CardContent>
@@ -186,17 +223,48 @@ function WorkExperience(): JSX.Element {
 									to WCAG 3.0 and improving user experience
 									for customers.
 								</Typography>
-								<Chip variant="outlined" label="Kotlin" />
-								<Chip variant="outlined" label="Java" />
-								<Chip variant="outlined" label="JavaScript" />
-								<Chip variant="outlined" label="WordPress" />
+								<Stack
+									direction="row"
+									spacing={1}
+									className="chipStack"
+									alignItems="center"
+									justifySelf="center"
+								>
+									<Chip
+										variant="filled"
+										color="secondary"
+										label="Kotlin"
+									/>
+									<Chip
+										variant="filled"
+										color="secondary"
+										label="Java"
+									/>
+									<Chip
+										variant="filled"
+										color="secondary"
+										label="JavaScript"
+									/>
+									<Chip
+										variant="filled"
+										color="secondary"
+										label="WordPress"
+									/>
+								</Stack>
 							</CardContent>
 						</Grid>
 					</Grid>
 				</Card>
 
 				{/* SE */}
-				<Card>
+				<Card
+					className="experienceCard"
+					sx={{
+						":hover": {
+							boxShadow: 15, // theme.shadows[20]
+						},
+					}}
+				>
 					<Grid container spacing={2}>
 						<Grid item xs={2}>
 							<CardContent>
@@ -239,9 +307,29 @@ function WorkExperience(): JSX.Element {
 									contract renewal with an international key
 									client.
 								</Typography>
-								<Chip variant="outlined" label="Apex" />
-								<Chip variant="outlined" label="Java" />
-								<Chip variant="outlined" label="JavaScript" />
+								<Stack
+									direction="row"
+									spacing={1}
+									className="chipStack"
+									alignItems="center"
+									justifySelf="center"
+								>
+									<Chip
+										variant="filled"
+										color="secondary"
+										label="Apex"
+									/>
+									<Chip
+										variant="filled"
+										color="secondary"
+										label="Java"
+									/>
+									<Chip
+										variant="filled"
+										color="secondary"
+										label="JavaScript"
+									/>
+								</Stack>
 							</CardContent>
 						</Grid>
 					</Grid>

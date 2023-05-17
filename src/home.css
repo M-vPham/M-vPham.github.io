@@ -1,6 +1,6 @@
 .app {
 	/* background-image: url("./img/bg.jpg"); */
-	background-color: beige;
+	background-image: linear-gradient(#361c32, #0e171b);
 	align-items: center;
 }
 .MenuBar {
@@ -9,10 +9,12 @@
 	position: sticky;
 	top: 0;
 }
-.nav-item > .active {
-	border-bottom: 100px solid #333;
+.About {
+	padding: 2em;
+	margin: 1em;
+	margin-bottom: 2.5em;
+	margin-top: 2.5em;
 }
-
 .profileCard {
 	padding: 2em;
 	text-align: center;
@@ -21,16 +23,25 @@
 	padding: 2em;
 	align-self: center;
 }
+.projectContainer {
+	margin: 5em;
+}
+.card {
+	text-align: center;
+	height: 400px;
+	padding: 2;
+	align-items: "center";
+	margin: "auto";
+}
+
+.cardImg {
+	margin-top: 1em;
+}
 
 .chipStack {
 	margin: auto;
 }
-.About {
-	padding: 2em;
-	margin: 1em;
-	margin-bottom: 2em;
-	margin-top: 2em;
-}
+
 .subtitle {
 	padding: 0em;
 }

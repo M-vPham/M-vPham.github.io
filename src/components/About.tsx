@@ -1,3 +1,4 @@
+import React from "react";
 import Typography from "@mui/material/Typography";
 
 function About(): JSX.Element {
@@ -6,7 +7,7 @@ function About(): JSX.Element {
 			<Typography
 				variant="h6"
 				align="left"
-				color="textPrimary"
+				color="common.white"
 				gutterBottom
 			>
 				Based in the GTA, my main focus is in Android development and a
@@ -20,10 +21,11 @@ function About(): JSX.Element {
 				<br />
 				Beyond coding, you can catch me climbing (and mostly falling) at
 				my local bouldering gym (shoutout to Toprock Climbing) or
-				toprope climbing out at the Glen. While coding is the core of my
-				career, I find immense joy in learning more math. From fractals
-				to set theory, understanding the elegance of the world around me
-				ignites my curiosity and fuels my passion for mathematics.
+				toprope climbing out at Devil's Glen. While coding is the core
+				of my career, I find immense joy in learning more math. From
+				fractals to set theory, understanding the elegance of the world
+				around me ignites my curiosity and fuels my passion for
+				mathematics.
 			</Typography>
 		</div>
 	);
