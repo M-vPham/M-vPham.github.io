@@ -60,11 +60,24 @@ function Projects(): JSX.Element {
 									alignItems="center"
 									justifySelf="center"
 								>
-									<Chip variant="outlined" label="Kotlin" />
-									<Chip variant="outlined" label="Java" />
-									<Chip variant="outlined" label="MongoDB" />
 									<Chip
-										variant="outlined"
+										variant="filled"
+										color="secondary"
+										label="Kotlin"
+									/>
+									<Chip
+										variant="filled"
+										color="secondary"
+										label="Java"
+									/>
+									<Chip
+										variant="filled"
+										color="secondary"
+										label="MongoDB"
+									/>
+									<Chip
+										variant="filled"
+										color="secondary"
 										label="TensorFlow"
 									/>
 								</Stack>
@@ -117,13 +130,34 @@ function Projects(): JSX.Element {
 									useFlexGap
 									flexWrap="wrap"
 								>
-									<Chip variant="outlined" label="React" />
-									<Chip variant="outlined" label="Express" />
-									<Chip variant="outlined" label="MongoDB" />
-									<Chip variant="outlined" label="GraphQL" />
-									<Chip variant="outlined" label="Node" />
 									<Chip
-										variant="outlined"
+										variant="filled"
+										color="secondary"
+										label="React"
+									/>
+									<Chip
+										variant="filled"
+										color="secondary"
+										label="Express"
+									/>
+									<Chip
+										variant="filled"
+										color="secondary"
+										label="MongoDB"
+									/>
+									<Chip
+										variant="filled"
+										color="secondary"
+										label="GraphQL"
+									/>
+									<Chip
+										variant="filled"
+										color="secondary"
+										label="Node"
+									/>
+									<Chip
+										variant="filled"
+										color="secondary"
 										label="Semantic-UI"
 									/>
 								</Stack>
@@ -179,8 +213,16 @@ function Projects(): JSX.Element {
 									alignItems="center"
 									justifySelf="center"
 								>
-									<Chip variant="outlined" label="Python" />
-									<Chip variant="outlined" label="Numpy" />
+									<Chip
+										variant="filled"
+										color="secondary"
+										label="Python"
+									/>
+									<Chip
+										variant="filled"
+										color="secondary"
+										label="Numpy"
+									/>
 								</Stack>
 							</CardContent>
 						</Card>

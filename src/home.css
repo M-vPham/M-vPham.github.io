@@ -1,5 +1,4 @@
-.app {
-	/* background-image: url("./img/bg.jpg"); */
+html {
 	background-image: linear-gradient(#361c32, #0e171b);
 	align-items: center;
 }
@@ -24,7 +23,8 @@
 	align-self: center;
 }
 .projectContainer {
-	margin: 5em;
+	margin-left: 5em;
+	margin-right: 5em;
 }
 .card {
 	text-align: center;

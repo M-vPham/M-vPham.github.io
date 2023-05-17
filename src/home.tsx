@@ -63,14 +63,14 @@ function Home(): JSX.Element {
 				</Grid>
 			</motion.div>
 			<motion.div
-				id="WorkExperience"
-				className="WorkExperience"
 				ref={experienceRef}
 				animate={experienceControls}
 				initial="hidden"
 				variants={componentVariant}
 			>
 				<Typography
+					id="WorkExperience"
+					className="WorkExperience"
 					variant="h4"
 					color="common.white"
 					sx={{ ml: 10 }}
@@ -81,14 +81,14 @@ function Home(): JSX.Element {
 				<WorkExperience />
 			</motion.div>
 			<motion.div
-				id="Projects"
-				className="Projects"
 				ref={projectRef}
 				animate={projectControls}
 				initial="hidden"
 				variants={componentVariant}
 			>
 				<Typography
+					id="Projects"
+					className="Projects"
 					variant="h4"
 					color="common.white"
 					sx={{ ml: 10 }}
