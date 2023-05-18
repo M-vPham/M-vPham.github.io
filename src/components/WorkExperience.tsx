@@ -16,9 +16,9 @@ function WorkExperience(): JSX.Element {
 				spacing={3}
 				sx={{
 					minWidth: 250,
-					ml: 10,
-					mr: 10,
-					mb: 10,
+					ml: 5,
+					mr: 5,
+					mb: 5,
 				}}
 			>
 				<Card
@@ -64,18 +64,18 @@ function WorkExperience(): JSX.Element {
 									for an at-home interactive exercise product
 									created by a <b>Fortune Future 50</b>{" "}
 									company.
-									<br /> Established filter features using
-									Kotlin/Java for a major product application
-									created by a <b>Fortune Future 50</b>{" "}
-									company that allowed users to filter by
-									localization.
+									<br /> Established filter features using{" "}
+									<b>Kotlin/Java</b> for a major product
+									application created by a{" "}
+									<b>Fortune Future 50</b> company that
+									allowed users to filter by localization.
 								</Typography>
 								<Stack
 									direction="row"
 									spacing={1}
 									className="chipStack"
-									alignItems="center"
-									justifySelf="center"
+									useFlexGap
+									flexWrap="wrap"
 								>
 									<Chip
 										variant="filled"
@@ -137,17 +137,17 @@ function WorkExperience(): JSX.Element {
 								<Typography variant="body2" gutterBottom>
 									Developed the rule feature in{" "}
 									<b>Typescript</b> for templates on the
-									flagship Content Authoring Management
-									minimal viable product restricting user
-									selection of rules applied on the template
-									and subsequent data elements selected.
+									flagship Content Authoring Management MVP
+									restricting user selection of rules applied
+									on the template and subsequent data elements
+									selected.
 								</Typography>
 								<Stack
 									direction="row"
 									spacing={1}
 									className="chipStack"
-									alignItems="center"
-									justifySelf="center"
+									useFlexGap
+									flexWrap="wrap"
 								>
 									<Chip
 										variant="filled"
@@ -209,15 +209,13 @@ function WorkExperience(): JSX.Element {
 									Specialization
 								</Typography>
 								<Typography variant="body2" gutterBottom>
-									Engineered the new Android UI in Kotlin for
-									a mobile product of a Fortune 500 social
-									media company.
+									Engineered the new Android UI in{" "}
+									<b>Kotlin</b> for a mobile product of a
+									<b> Fortune 50</b> social media company.
 									<br />
 									Refactored legacy code to achieve{" "}
-									<b>MVVM architecture</b> including
-									<b>
-										dependency injection and LiveData
-									</b>{" "}
+									<b>MVVM architecture</b> including{" "}
+									<b>dependency injection and LiveData</b>{" "}
 									practices in Kotlin.
 									<br />
 									Presented and executed on design documents
@@ -230,8 +228,8 @@ function WorkExperience(): JSX.Element {
 									direction="row"
 									spacing={1}
 									className="chipStack"
-									alignItems="center"
-									justifySelf="center"
+									useFlexGap
+									flexWrap="wrap"
 								>
 									<Chip
 										variant="filled"
@@ -297,22 +295,24 @@ function WorkExperience(): JSX.Element {
 									Software Engineer Co-op
 								</Typography>
 								<Typography variant="body2" gutterBottom>
-									Developed a <b>REST API in Apex</b> to
-									create and store Salesforce records both
+									Developed a <b>REST API</b> in <b>Apex</b>{" "}
+									to create and store Salesforce records both
 									locally and in the client&apos;s third party
 									database.
 									<br />
-									Implemented an email parser in Apex that
-									created Salesforce records indicating when a
-									customer requested an appointment with the
-									client.
+									Implemented an email parser in <b>
+										Apex
+									</b>{" "}
+									that created Salesforce records indicating
+									when a customer requested an appointment
+									with the client.
 								</Typography>
 								<Stack
 									direction="row"
 									spacing={1}
 									className="chipStack"
-									alignItems="center"
-									justifySelf="center"
+									useFlexGap
+									flexWrap="wrap"
 								>
 									<Chip
 										variant="filled"

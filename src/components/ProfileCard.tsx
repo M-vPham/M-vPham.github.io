@@ -46,9 +46,9 @@ function ProfileCard(): JSX.Element {
 				align="center"
 				color="common.white"
 			>
-				I&apos;m a V4/5.10+ indoor climber. An avid boardgame and
-				videogame enthusiast. <br />
-				And I code android and full-stack applications.
+				I&apos;m a climber. An avid boardgame and videogame enthusiast.{" "}
+				<br />
+				And sometimes I code android and full-stack applications.
 			</Typography>
 			<Box display="flex" sx={{ mb: 2 }}>
 				<Stack
@@ -90,8 +90,9 @@ function ProfileCard(): JSX.Element {
 					direction="row"
 					spacing={1}
 					className="chipStack"
-					alignItems="center"
-					justifySelf="center"
+					useFlexGap
+					flexWrap="wrap"
+					justifyContent="center"
 				>
 					<Chip variant="filled" label="Kotlin" color="secondary" />
 					<Chip variant="filled" label="Java" color="secondary" />
