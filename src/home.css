@@ -22,10 +22,18 @@ html {
 	padding: 2em;
 	align-self: center;
 }
-.projectContainer {
-	margin-left: 5em;
-	margin-right: 5em;
+.projectContainer,
+.experienceContainer {
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-bottom: 2em;
 }
+.workExperience,
+.projects {
+	padding-left: 1em;
+	padding-top: 1em;
+}
+
 .card {
 	text-align: center;
 	height: 400px;

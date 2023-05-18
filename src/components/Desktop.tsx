@@ -76,10 +76,9 @@ function Desktop(): JSX.Element {
 			>
 				<Typography
 					id="WorkExperience"
-					className="WorkExperience"
+					className="workExperience"
 					variant="h4"
 					color="common.white"
-					sx={{ ml: 5 }}
 					gutterBottom
 				>
 					Work Experiences
@@ -94,10 +93,9 @@ function Desktop(): JSX.Element {
 			>
 				<Typography
 					id="Projects"
-					className="Projects"
+					className="projects"
 					variant="h4"
 					color="common.white"
-					sx={{ ml: 10 }}
 					gutterBottom
 				>
 					Projects

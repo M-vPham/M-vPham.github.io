@@ -234,8 +234,8 @@ function Projects(): JSX.Element {
 										direction="row"
 										spacing={1}
 										className="chipStack"
-										alignItems="center"
-										justifySelf="center"
+										useFlexGap
+										flexWrap="wrap"
 									>
 										<Chip
 											variant="filled"

@@ -13,12 +13,10 @@ function WorkExperience(): JSX.Element {
 	return (
 		<div>
 			<Stack
+				className="experienceContainer"
 				spacing={3}
 				sx={{
 					minWidth: 250,
-					ml: 5,
-					mr: 5,
-					mb: 5,
 				}}
 			>
 				<Card
