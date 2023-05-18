@@ -60,14 +60,15 @@ function WorkExperience(): JSX.Element {
 								</Typography>
 								<Typography variant="body2" gutterBottom>
 									Implemented QR account activation and login
-									in Kotlin/Java and Cloudinary for an at-home
-									interactive exercise product created by a
-									Fortune Future 50 company for a major Q3
-									release.
+									in <b>Kotlin/Java</b> and <b>Cloudinary</b>{" "}
+									for an at-home interactive exercise product
+									created by a <b>Fortune Future 50</b>{" "}
+									company.
 									<br /> Established filter features using
 									Kotlin/Java for a major product application
-									created by a Fortune Future 50 company that
-									allowed users to filter by localization.
+									created by a <b>Fortune Future 50</b>{" "}
+									company that allowed users to filter by
+									localization.
 								</Typography>
 								<Stack
 									direction="row"
@@ -134,12 +135,12 @@ function WorkExperience(): JSX.Element {
 									Full-stack Engineer Co-op
 								</Typography>
 								<Typography variant="body2" gutterBottom>
-									Developed the rule feature in Typescript.js
-									for templates on the flagship Content
-									Authoring Management minimal viable product
-									(MVP) restricting user selection of rules
-									applied on the template and subsequent data
-									elements selected.
+									Developed the rule feature in{" "}
+									<b>Typescript</b> for templates on the
+									flagship Content Authoring Management
+									minimal viable product restricting user
+									selection of rules applied on the template
+									and subsequent data elements selected.
 								</Typography>
 								<Stack
 									direction="row"
@@ -205,23 +206,25 @@ function WorkExperience(): JSX.Element {
 									gutterBottom
 								>
 									Software Engineer Co-op - Android
-									Specialisation
+									Specialization
 								</Typography>
 								<Typography variant="body2" gutterBottom>
 									Engineered the new Android UI in Kotlin for
 									a mobile product of a Fortune 500 social
-									media company, ensuring a seamless release
-									in retailers across the US.
+									media company.
 									<br />
-									Refactored legacy code to achieve MVVM
-									architecture including dependency injection
-									and LiveData practices in Kotlin.
+									Refactored legacy code to achieve{" "}
+									<b>MVVM architecture</b> including
+									<b>
+										dependency injection and LiveData
+									</b>{" "}
+									practices in Kotlin.
 									<br />
 									Presented and executed on design documents
-									for client’s Javascript website aimed
+									for client&apos;s Javascript website aimed
 									towards increasing accessibility according
-									to WCAG 3.0 and improving user experience
-									for customers.
+									to <b>WCAG 3.0</b> and improving user
+									experience for customers.
 								</Typography>
 								<Stack
 									direction="row"
@@ -294,17 +297,14 @@ function WorkExperience(): JSX.Element {
 									Software Engineer Co-op
 								</Typography>
 								<Typography variant="body2" gutterBottom>
-									Developed a REST API in Java/Apex to create
-									and store Salesforce records both locally
-									and in the client’s third party database
-									resulting in a contract renewal with a key
-									client.
+									Developed a <b>REST API in Apex</b> to
+									create and store Salesforce records both
+									locally and in the client&apos;s third party
+									database.
 									<br />
-									Implemented an email parser in Java/Apex
-									that created Salesforce records that
-									indicated when a customer requested an
-									appointment with the client, ensuring a
-									contract renewal with an international key
+									Implemented an email parser in Apex that
+									created Salesforce records indicating when a
+									customer requested an appointment with the
 									client.
 								</Typography>
 								<Stack

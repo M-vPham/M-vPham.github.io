@@ -48,7 +48,7 @@ function ProfileCard(): JSX.Element {
 			>
 				I&apos;m a V4/5.10+ indoor climber. An avid boardgame and
 				videogame enthusiast. <br />
-				And I guess I code android and full-stack applications.
+				And I code android and full-stack applications.
 			</Typography>
 			<Box display="flex" sx={{ mb: 2 }}>
 				<Stack
