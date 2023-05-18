@@ -53,5 +53,6 @@
 	},
 	"devDependencies": {
 		"@types/react-scroll": "^1.8.7"
-	}
+	},
+	"build": "react-scripts build --output-path=public"
 }
